@@ -5,6 +5,7 @@
  */
 
 var darkSwitch = document.getElementById("darkSwitch");
+console.log(darkSwitch);
 window.addEventListener("load", function () {
   if (darkSwitch) {
     initTheme();
